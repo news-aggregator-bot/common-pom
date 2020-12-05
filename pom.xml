@@ -18,6 +18,7 @@
         <lombok.version>1.18.12</lombok.version>
         <spring-cloud.version>2.2.2.RELEASE</spring-cloud.version>
         <spring-cloud-dependecies.version>Hoxton.SR6</spring-cloud-dependecies.version>
+        <java.version>15</java.version>
     </properties>
 
     <distributionManagement>
@@ -126,9 +127,7 @@
                     <artifactId>maven-compiler-plugin</artifactId>
                     <version>3.8.1</version>
                     <configuration>
-                        <!-- Set the source level to Java 8 -->
-                        <source>1.8</source>
-                        <target>1.8</target>
+                        <release>15</release>
                     </configuration>
                 </plugin>
 
