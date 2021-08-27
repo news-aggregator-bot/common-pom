@@ -6,7 +6,7 @@
 
     <groupId>bepicky</groupId>
     <artifactId>common-pom</artifactId>
-    <version>2.3</version>
+    <version>2.9</version>
     <packaging>pom</packaging>
 
     <name>common-pom</name>
@@ -16,8 +16,7 @@
         <camel.version>2.25.1</camel.version>
         <spring-boot.version>2.5.4</spring-boot.version>
         <lombok.version>1.18.12</lombok.version>
-        <spring-cloud.version>2.2.8.RELEASE</spring-cloud.version>
-        <spring-cloud-dependecies.version>Hoxton.SR12</spring-cloud-dependecies.version>
+        <spring-cloud.version>3.0.3</spring-cloud.version>
         <java.version>15</java.version>
     </properties>
 
@@ -147,7 +146,7 @@
                 <plugin>
                     <groupId>org.apache.maven.plugins</groupId>
                     <artifactId>maven-failsafe-plugin</artifactId>
-                    <version>2.22.2</version>
+                    <version>2.52.5</version>
                     <executions>
                         <execution>
                             <goals>
@@ -162,6 +161,12 @@
                     <artifactId>docker-maven-plugin</artifactId>
                     <version>0.33.0</version>
                 </plugin>
+                <plugin>
+                    <groupId>org.apache.maven.plugins</groupId>
+                    <artifactId>maven-dependency-plugin</artifactId>
+                    <version>3.2.0</version>
+                </plugin>
+
             </plugins>
         </pluginManagement>
     </build>
