@@ -24,7 +24,7 @@
         <repository>
             <id>na</id>
             <name>news-aggregator-bot</name>
-            <url>https://maven.pkg.github.com/news-aggregator-bot</url>
+            <url>https://maven.pkg.github.com/news-aggregator-bot/artifactory</url>
         </repository>
     </distributionManagement>
 
