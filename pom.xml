@@ -26,6 +26,7 @@
             <name>news-aggregator-bot</name>
             <url>https://maven.pkg.github.com/news-aggregator-bot/artifactory</url>
         </repository>
+
     </distributionManagement>
 
     <dependencyManagement>
